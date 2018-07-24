@@ -3,7 +3,7 @@ study for solr
 
 ## solr基础指令
 
-# solr_install/bin
+solr_install/bin
 
 solr start  |   开启solr 
 
