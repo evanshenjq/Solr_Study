@@ -15,6 +15,8 @@ solr stop -p port     |   solr停止
 
 solr create -c core_name  |	创建一个solr内核
 
+solr delete -c core_name  | 删除solr内核
+
 ## solr引入文档
 
 java -Dc='core_name' -jar post.jar file_path  | Windows引入索引文档(默认是xml,其他格式需要-Dtype)
